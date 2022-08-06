@@ -1,0 +1,29 @@
+.swipe-action__leading {
+    background-color: #8d99ae;
+    margin-bottom: 2.5rem;
+    color: #EDF2F4;
+    font-weight: bold;
+}
+
+.swipe-action__trailing {
+    background-color: #EF233C;
+    margin-bottom: 2.5rem;
+    color: #EDF2F4;
+    font-weight: bold;
+}
+
+.swipeable-list {
+    overflow: visible;
+}
+
+.swipeable-list .swipeable-list-item {
+    overflow: visible;
+}
+
+.swipeable-list .swipe-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    text-align: right;
+}
